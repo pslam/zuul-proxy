@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    api:
+      path: /wallet/api/**
+      stripPrefix: true
+      url: http://172.21.96.59:8081/wallet/api
+
+#server.port: 8290
